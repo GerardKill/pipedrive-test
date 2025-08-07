@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pipedrive OAuth Callback</title>
+  <script>
+    // Зчитуємо state і редіректимо назад у Pipedrive
+    const p = new URLSearchParams(window.location.search);
+    const state = p.get('state');
+    if (state) window.location.href = decodeURIComponent(state);
+  </script>
+</head>
+<body>
+  Redirecting…
+</body>
+</html>
