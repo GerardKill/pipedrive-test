@@ -1,6 +1,6 @@
 {
   "data": {
     "header": "Actions",
-    "send_to_make": { "value": "https://hook.eu2.make.com/n3qjk7v8vsn9e9sqan42p022r463r7f9?deal_id={{deal.id}}" }
+    "send_to_make": { "value": "https://hook.eu2.make.com/n3qjk7v8vsn9e9sqan42p022r463r7f9?deal_id=1234" }
   }
 }
