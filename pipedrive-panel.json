@@ -1,16 +1,6 @@
-{
-  "items": [
-    {
-      "components": [
-        {
-          "type": "link",
-          "title": "Send to Make",
-          "action": {
-            "type": "openUrl",
-            "url": "https://hook.eu2.make.com/n3qjk7v8vsn9e9sqan42p022r463r7f9?deal_id={{deal.id}}"
-          }
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "header": "Actions",
+    "send_to_make": "https://hook.eu2.make.com/n3qjk7v8vsn9e9sqan42p022r463r7f9?deal_id={{deal.id}}"
+  }
+]
